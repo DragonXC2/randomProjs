@@ -26,6 +26,10 @@ void setup(){
       }
     }
   }
+  //Checking if the array has the values correctly
+  for(int i = 0;i<pointsAmount;i++){
+    println(points[i]);
+  }
 }
 
 //Swap fucntion for swapping points
