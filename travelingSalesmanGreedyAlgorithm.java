@@ -20,15 +20,17 @@ void setup(){
   }
   //Iterate through each point and sort array from closest points to farthest away
   for(int i = 0;i<pointsAmount;i++){
-    for(int j = i+2;j<pointsAmount;j++){
+    for(int j = i+1;j<pointsAmount;j++){
       if(dist(points[i].x,points[i].y,points[j].x,points[j].y)<dist(points[i].x,points[i].y,closestPoint.x,closestPoint.y)){
+        closestPoint = points[j];
         swap(points,i,j);
       }
     }
   }
   //Checking if the array has the values correctly
-  for(int i = 0;i<pointsAmount;i++){
-    println(points[i]);
+  for(int i = 0;i<pointsAmount-1;i++){
+    line(points[i].x,points[i].y,points[i+1].x,points[i+1].y);
+    println(dist(points[i].x,points[i].y,points[i+1].x,points[i+1].y));
   }
 }
 
