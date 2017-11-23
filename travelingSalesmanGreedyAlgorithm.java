@@ -7,6 +7,7 @@
 */
 
 //Initialize the amount of points and the array of points
+
 int pointsAmount = 10;
 PVector[] points = new PVector[pointsAmount];
 
