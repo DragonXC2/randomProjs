@@ -4,6 +4,7 @@
 
   Written by Addison Chen
 */
+
 import java.util.Scanner;
 
 class Main{
