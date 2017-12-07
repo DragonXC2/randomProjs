@@ -7,7 +7,7 @@ var url = require('url');
 const server = http.createServer((req, res) => {
   var q = url.parse(req.url, true);
   var filename = "." + q.pathname;
-  if(filename!='index.html'){
+  if(filename!=''){
     fs.readFile(filename, function(err, data) {
       if (err) {
         res.writeHead(404, {'Content-Type': 'text/html'});
