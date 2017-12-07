@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+  background-image:url("http://grozav.com/plugins/bootslider/img/slide-3.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+div{
+  color:gray;
+}
+
+.login{
+  margin-top:20px;
+}
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
