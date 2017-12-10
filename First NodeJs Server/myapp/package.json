@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "private":"true",
+  "private": "true",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
   }
 }
