@@ -1,3 +1,12 @@
 body{
   text-align: center;
 }
+
+#section2{
+  background-color:#fefffb;
+}
+
+.section1img{
+  height:500px;
+  opacity: 0.5;
+}
