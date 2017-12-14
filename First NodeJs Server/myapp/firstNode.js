@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/'));
 
 
 app.get('/',(req,res)=>{
-  res.location('index.html');
+  res.redirect('/Index/index.html');
 });
 
 app.listen(port,() =>{
